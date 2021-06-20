@@ -1,0 +1,98 @@
+
+body{
+	background-color: orchid;
+	color: black;
+	padding-bottom: 50px;
+	font-family:Georgia, Times, serif
+width: 960px;
+margin: 0 auto;
+}
+
+h1{
+
+	color: black;
+  padding: 20px;
+	font-family: Courier New, Courier, monospace;
+	font-size: 300%;
+	text-shadow: 3px 3px 3px lightpink;
+  letter-spacing: 0.2em;
+  text-align: center;
+	font-family: overpass;
+	font-weight: 500;
+}
+
+h2{
+	color: black;
+	font-family: Courier New, Courier, monospace;
+  font-size: 220%;
+  text-align: center;
+	font-family: overpass;
+	font-weight: 100;
+}
+
+p {
+font-size: 150%;
+}
+
+li{
+  margin: 5px;
+  list-style-position: inside;
+}
+ul{
+  font-size: 150%;
+}
+.nav-wrap {
+    margin: auto;
+    justify-content: center;
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.nav-link {
+    background-color: lightpink;
+    color: black;
+    border-radius: 15px 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 10px 0px 30px 0px;
+}
+
+a{
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: Bold;
+  color: white;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom:  20px;
+  padding-left: 12px;
+  padding-right:  12px;
+}
+
+.text {
+  inline: block;
+  height: 300px;
+  width: 1000px;
+  float: center;
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'overpass';
+  src: url(fonts/Overpass-ExtraBoldItalic.ttf);
+	font-style: normal;
+  font-weight: 500;
+}
+
+}
+@font-face {
+  font-family: 'overpass';
+  src: url(fonts/Overpass-Light.ttf);
+	font-style: normal;
+  font-weight: 100;
+}
