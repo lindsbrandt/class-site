@@ -1,3 +1,4 @@
+
 body{
 	background-color: orchid;
 	color: black;
@@ -11,20 +12,22 @@ h1{
 
 	color: black;
   padding: 20px;
-	font-family: overpass;
-	font-weight: 500;
+	font-family: Courier New, Courier, monospace;
 	font-size: 300%;
 	text-shadow: 3px 3px 3px lightpink;
   letter-spacing: 0.2em;
   text-align: center;
+	font-family: overpass;
+	font-weight: 500;
 }
 
 h2{
 	color: black;
-	font-family: overpass;
-	font-weight: 100;
+	font-family: Courier New, Courier, monospace;
   font-size: 220%;
   text-align: center;
+	font-family: overpass;
+	font-weight: 100;
 }
 
 p {
@@ -57,20 +60,6 @@ ul{
     padding-right: 12px;
     margin: 10px 0px 30px 0px;
 }
-@font-face {
-  font-family: 'overpass';
-  src: url(fonts/Overpass-ExtraBoldItalic.ttf);
-	font-style: normal;
-  font-weight: 500;
-}
-
-}
-@font-face {
-  font-family: 'overpass';
-  src: url(fonts/Overpass-Light.ttf);
-	font-style: normal;
-  font-weight: 100;
-}
 
 a{
   font-family: sans-serif;
@@ -93,6 +82,17 @@ a{
   margin: auto;
 }
 
-.welcome {
-  float: inherit;
+@font-face {
+  font-family: 'overpass';
+  src: url(fonts/Overpass-ExtraBoldItalic.ttf);
+	font-style: normal;
+  font-weight: 500;
+}
+
+}
+@font-face {
+  font-family: 'overpass';
+  src: url(fonts/Overpass-Light.ttf);
+	font-style: normal;
+  font-weight: 100;
 }
