@@ -42,6 +42,7 @@ ul{
   font-size: 150%;
 }
 .nav-wrap {
+	background-image: url('../Untitled-22.jpg');
     margin: auto;
     justify-content: center;
     display: grid;
