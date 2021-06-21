@@ -95,4 +95,12 @@ a{
 
 .welcome {
   float: inherit;
+	padding-top: 170px;
+}
+ img.reading1 {
+	 display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+		padding-top: 0px;
 }
