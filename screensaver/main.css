@@ -1,0 +1,99 @@
+body{
+  background: rgb(10,28,59);
+background: linear-gradient(142deg, rgba(10,28,59,1) 31%, rgba(0,0,0,1) 100%);
+margin: 0;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 0;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+img{
+  max-width: 100%;
+  opacity: 0.5;
+}
+
+p{
+  color: rgb(196, 224, 228);
+  margin: 20px;
+  font-family:'Playfair Display', serif;
+  font-size: 32px;
+}
+
+.cloud{
+   margin-top:45px;
+   width:350px;
+   height:120px;
+   background:rgb(192, 216, 235);
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:100px;
+
+}
+.cloud::after, .cloud::before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+}
+.cloud::after{
+    width:100px;
+    height:100px;
+    top:-100px;
+    left:-120px;
+}
+.cloud::before{
+    width:180px;
+    height:180px;
+    top: -70px;
+    left:130px;
+}
+.x1 {
+    animation: animateCloud 15s linear infinite;
+}
+.x2 {
+    animation: animateCloud 10s linear infinite;
+    transform: scale(0.5);
+}
+.x3 {
+    animation: animateCloud 20s linear infinite;
+    transform: scale(2);
+}
+
+.x4 {
+    animation: animateCloud 12s linear infinite;
+    transform: scale(1);
+}
+
+.text{
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  top: 170px;
+  left: 300px;
+  z-index: -1;
+}
+
+.cancer{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  bottom: 3px;
+  right: 7px;
+  z-index: -1;
+}
+@keyframes animateCloud {
+  0% {
+    margin-left: -1000px;
+}
+100% {
+    margin-left: 100%;
+}
